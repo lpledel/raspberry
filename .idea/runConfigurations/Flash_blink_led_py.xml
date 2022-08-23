@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Flash blink_led.py" type="MicroPythonConfigurationType" factoryName="MicroPython" nameIsGenerated="true" path="$PROJECT_DIR$/blink_led.py">
+    <module name="raspberry" />
+    <method v="2" />
+  </configuration>
+</component>
