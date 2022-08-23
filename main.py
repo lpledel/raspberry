@@ -57,9 +57,9 @@ class Flotteur:
 
 class Mail:
     def __init__(self):
-        self.sender = 'lpledel@free.fr'
-        self.receiver = 'vlpledel@gmail.com'
-        self.pwd = "42719290"
+        self.sender = 'xxx@free.fr'
+        self.receiver = 'xxxxx@gmail.com'
+        self.pwd = "xxxxx"
         self.serveur = 'smtp.free.fr'
         self.port = 465
         self.subject = ""
@@ -70,7 +70,7 @@ class Mail:
         self.status = 0
 
     def send_mail(self, subject, message):
-        # msg="From: lpledel@free.fr\r\n"+"To: vlpledel@gmail.com\r\n"+"subject: problèmes pompes\r\n\r\n"
+        # msg="From: xxxxx@free.fr\r\n"+"To: xxxxxx@gmail.com\r\n"+"subject: problèmes pompes\r\n\r\n"
         self.message = message
         self.subject = subject
         try:
