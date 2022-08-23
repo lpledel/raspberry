@@ -11,8 +11,8 @@ class CustomError(Exception):
 
 class Wifi:
     def __init__(self):
-        self.net = 'hby_2G'
-        self.pwd = 'verololo'
+        self.net = 'xxxxxx'
+        self.pwd = 'xxxxx'
         self.wifi = network.WLAN(network.STA_IF)
         self.status = 0
 
